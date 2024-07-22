@@ -1,4 +1,4 @@
-Принцип работы авторизации Google
+Принцип работы авторизации Google в FastAPI
 1. Настройка, нужно в панели Google API Console создать Credentials для Web application
 Там мы получаем JSON такого типа. 
 ```
@@ -36,3 +36,10 @@
 ```
 Эти данные мы обрабатываем через Сental Backend и выдаём JWT token.
 
+```
+pip install fastapi
+pip install uvicorn
+pip install python-jose[cryptography]
+pip install python-multipart
+pip install requests
+```
